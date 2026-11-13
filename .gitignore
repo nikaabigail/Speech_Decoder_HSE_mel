@@ -1,0 +1,32 @@
+# Local configuration, patient recordings and generated scientific artifacts
+configs/patients.local.json
+configs/*.private.json
+data/
+runs/
+results/
+model_dumps/
+whisper_cache/
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pth
+*.pt
+*.safetensors
+*.wav
+*.mp3
+*_words.txt
+# Python/build/editor files and credentials
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+.ssh/
+*.pem
+*.key
+.DS_Store
+.idea/
+.vscode/

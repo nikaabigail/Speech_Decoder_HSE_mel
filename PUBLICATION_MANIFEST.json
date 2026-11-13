@@ -1,0 +1,175 @@
+{
+  "schema": "public_source_manifest_v1",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 401,
+      "sha256": "dcb61ad8aa1ad32e355098d6b872828acea459ebf9846fa4e87583142079c1bf",
+      "git_blob_sha1": "702399d31349312e150b02e17f1054b8cee38265"
+    },
+    {
+      "path": "benchmarks/historical_results.json",
+      "bytes": 2895,
+      "sha256": "6a9c9bf8666e778dffaa1449ce624f4da277c0f01982ae932dce460b675e6f6a",
+      "git_blob_sha1": "a17888e051660b4c8e38cadc88aa5266012014ae"
+    },
+    {
+      "path": "configs/patients.example.json",
+      "bytes": 1741,
+      "sha256": "acd48b8fb003128722766cb1cb3ffff8bf077eea487f69f4d59322e12f98d7e2",
+      "git_blob_sha1": "514fa99e8b8347716a15b20089c780061be9b971"
+    },
+    {
+      "path": "ensemble.py",
+      "bytes": 13574,
+      "sha256": "9e60ee3cb74a82229c8fcead7fe57d5727b6b5c68659ee3c2d091523adc23025",
+      "git_blob_sha1": "6f437dcb5b8205e65724421d05af022b24d364eb"
+    },
+    {
+      "path": "HISTORICAL_RESULTS.md",
+      "bytes": 2423,
+      "sha256": "ff420c32f71ca4d0d124ac9c89a6f5287a763cc4869009af4c45f0fcb4a26cef",
+      "git_blob_sha1": "b335248cf5bbe8517db2a84887989983f95387e7"
+    },
+    {
+      "path": "library/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "library/bench_models_classification.py",
+      "bytes": 2400,
+      "sha256": "0a546ea36f94393aa30cf2441cb5994f5d980d751764a05e7fb10922d09865a2",
+      "git_blob_sha1": "7a6506ec6f15bf32c2932745b40c240c57745664"
+    },
+    {
+      "path": "library/bench_models_regression.py",
+      "bytes": 6594,
+      "sha256": "a6c857e2dab50cdcbeb29d329a5b3b2406d87742b65aace21f39031b96be173c",
+      "git_blob_sha1": "1cf04d8603f8b0f0b6fdd7cbccad29562f192cb3"
+    },
+    {
+      "path": "library/common_preprocessing.py",
+      "bytes": 2636,
+      "sha256": "6c492b35d61ceb8bfacd0240ea73e3d126a686f30e76b8604ea190ceead7c2f6",
+      "git_blob_sha1": "f8fcc9b9c35371e67a36cb32ec9621cf6d889bcc"
+    },
+    {
+      "path": "library/loggers.py",
+      "bytes": 1596,
+      "sha256": "b24a2afea11960811450c3dce2d5d9ba49234a4e766caabebeb56a5143c573a7",
+      "git_blob_sha1": "8696224e0eed7084f45c8b432ac2b396939f1243"
+    },
+    {
+      "path": "library/models_classification.py",
+      "bytes": 2378,
+      "sha256": "fcd210df56c44a27efbed4b90a6bb3ce514a3ba0aaf5254cd7a9f40954705c37",
+      "git_blob_sha1": "165bc7a13bb2e208290a39e778fa54b7bfa9637f"
+    },
+    {
+      "path": "library/models_regression.py",
+      "bytes": 3068,
+      "sha256": "ca5f62f9afba486de6f5819ba62b4450517a4d908ce3204c6f1792bc783728e2",
+      "git_blob_sha1": "ffe316405b2f41cbee97f74962fb1ebde0f5a658"
+    },
+    {
+      "path": "library/runner_classification.py",
+      "bytes": 18951,
+      "sha256": "2fd44f380397fab1958c2f91706dc7cf2b20c01bdab6cc17ab99c0e17ac6b96f",
+      "git_blob_sha1": "26ab1fe65e86becf7bf9b7aa174c646c0c12446a"
+    },
+    {
+      "path": "library/runner_common.py",
+      "bytes": 2035,
+      "sha256": "304b02c2919b98abaa8644caf6f6e8ed0cca2db50214f4dd131f0ada7dd229ce",
+      "git_blob_sha1": "c8062ee1e5603d7b9fe22250974b4ce92c874a0b"
+    },
+    {
+      "path": "library/runner_regression.py",
+      "bytes": 9597,
+      "sha256": "3ff31dd7e7bf4ef2a28f99b8b068e80d187a54ddbadd9f1a5a8d6e78cff14ba5",
+      "git_blob_sha1": "b49ff438930c7999a0856f52f997cfc09761ef43"
+    },
+    {
+      "path": "library/runtime.py",
+      "bytes": 3938,
+      "sha256": "7433218f084325a6c4ec1b7b909721dc837948038d39004749725b6b0b8ea9f2",
+      "git_blob_sha1": "0c77543e802fd116ae4261ee439853a534a75add"
+    },
+    {
+      "path": "library/whisper_target.py",
+      "bytes": 6105,
+      "sha256": "25b9da3fddda123484cb943473647ab149f7edf9729c7fa7c6c7bf01b6885197",
+      "git_blob_sha1": "c6fca85e8c4bbc9b7a9315adcd989eb923dc9887"
+    },
+    {
+      "path": "multiseed.py",
+      "bytes": 5430,
+      "sha256": "651cb074e53139114407f63962c2538cc202b1f2380f1d72917b429b4747aed6",
+      "git_blob_sha1": "3d3d796661c2f9aafb54147345e3eeb79f25de27"
+    },
+    {
+      "path": "NOTICE.md",
+      "bytes": 1136,
+      "sha256": "833224cc43b9ed7c01ffc0d53a1fe5ac3b7fa4b0f621293397c0cdb8c0184c3b",
+      "git_blob_sha1": "93748ae4847cf3d3177cb503e61771cdd2873a28"
+    },
+    {
+      "path": "PROVENANCE.md",
+      "bytes": 4866,
+      "sha256": "c418f6f62bab59666c2efa2cfc781f9fe0a2d2ce6aceadb9c36da3f8f49ddbc5",
+      "git_blob_sha1": "b4d92721ea81b394a3b9cbfacad5d120b610c3c5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7312,
+      "sha256": "fc9ae0da0076439517c51f349f9e6dbe43d2f95a03d0e5b7a67a86cf58cfb26a",
+      "git_blob_sha1": "21fad9d031690a6b33d253e5749d8639c06c4984"
+    },
+    {
+      "path": "README_RU.md",
+      "bytes": 2751,
+      "sha256": "bc529b7ce74597349e4338cc718bfee30dbc88cbaab5199e18e730fdac80e4d6",
+      "git_blob_sha1": "cd294e8114664996c2fb1769cc125b7709969e85"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 361,
+      "sha256": "ed104c2fa7121a07fd4964d25685fe93a0a165f76075e1af40527280b1f07cf3",
+      "git_blob_sha1": "8afc0b136cb46276248cb4b7878f8cac0bbabf85"
+    },
+    {
+      "path": "tests/test_core.py",
+      "bytes": 9091,
+      "sha256": "ab5220f7182788a46c7da8eb5db044a576aebbc6f95b34be399f9361067d5977",
+      "git_blob_sha1": "ffb4fbea57eecba2c3a388a29a74a2505236f0e6"
+    },
+    {
+      "path": "tests/test_ensemble.py",
+      "bytes": 7197,
+      "sha256": "30765d89a124ae32e284ce457fd77206485f1bd014f3a0b900dfdd37ac7fc147",
+      "git_blob_sha1": "99602e00771f5d91c240599547ff9551ce669517"
+    },
+    {
+      "path": "tests/test_orchestration.py",
+      "bytes": 4457,
+      "sha256": "f0802551ecddfbc8688faded16a5e5e2437d39258c6f198b63845ff56eb92f95",
+      "git_blob_sha1": "e9fd99d4c6c84d543df0d98fb5ece95515304033"
+    },
+    {
+      "path": "tests/test_release_contract.py",
+      "bytes": 9814,
+      "sha256": "4d614e7df31ce6608d97357cd5f4099b5638d774975506e18dae1edfdfe586a4",
+      "git_blob_sha1": "2401cf6828adf5cc1485c55c1b1fa84794e6296f"
+    },
+    {
+      "path": "train.py",
+      "bytes": 12634,
+      "sha256": "eff3a55f1b9ab710ec26d98d6eeecba14932505895f97986a5e13ee4b09fc770",
+      "git_blob_sha1": "bb627f9e2fe85727599bc00676069398419339cc"
+    }
+  ],
+  "scientific_training_or_patient_inference": false,
+  "verification": "synthetic CPU and mocked interfaces"
+}

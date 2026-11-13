@@ -1,0 +1,11 @@
+# Python3.10. Exact local verification versions, not a recovered June lockfile.
+# Install the appropriate PyTorch CPU/CUDA wheel for your machine separately
+# if your package index does not provide the desired accelerator build.
+torch==2.10.0
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.7.2
+h5py==3.16.0
+librosa==0.11.0
+transformers==5.12.1
+tensorboard==2.20.0
