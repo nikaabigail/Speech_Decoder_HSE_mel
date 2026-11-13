@@ -25,6 +25,13 @@ describe five such triples; they are not a single 15-model ensemble.
 
 ## Scope and recorded results
 
+The ordinary MEL replication after split corrections and implementation fixes
+reached best saved single-run accuracies of **48.82% for P1 (sEEG)** and
+**67.39% for P2 (ECoG)**. The MEL code is included through `train.py --target mel`.
+See [MEL_BASELINE.md](MEL_BASELINE.md) for the recovered source, exact scores,
+seeds and evaluation boundaries. These maxima are separate from the later
+five-seed MEL mean below.
+
 The early layer means were 56.56%, 70.54%, 72.28%, 73.79%, 72.82%, 72.56% for L1..L6.
 The fixed L3/L4/L5 mean over five seeds was 78.07%; its best repeats reached
 362/445 = 81.35%. See [HISTORICAL_RESULTS.md](HISTORICAL_RESULTS.md) for the full

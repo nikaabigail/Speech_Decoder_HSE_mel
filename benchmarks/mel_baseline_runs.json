@@ -1,0 +1,118 @@
+{
+  "schema": "historical_plain_mel_runs_v1",
+  "description": "Best saved individual plain-MEL runs, not multi-seed means or method-wide maxima",
+  "runs": [
+    {
+      "participant": "P1",
+      "modality": "sEEG",
+      "neural_channels": 6,
+      "target": "40 log-mel bins",
+      "classifier_input": "frozen hidden3030",
+      "mode": "classification_hidden",
+      "seed": 42,
+      "run_date": "2026-06-13",
+      "accuracy": 0.4882435129740519,
+      "accuracy_percent": 48.82435129740519,
+      "metric": "test_accuracy: historical random minibatches sampled with replacement",
+      "head_split": {
+        "train_files": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "val_files": [
+          4
+        ],
+        "test_files": [
+          5
+        ]
+      },
+      "regression_split": {
+        "train_files": [
+          0,
+          1,
+          2
+        ],
+        "val_files": [
+          3
+        ],
+        "test_files": [
+          4,
+          5
+        ]
+      },
+      "max_words_length": 81,
+      "selected_head_iteration": 1000,
+      "completed_head_iteration": 7000,
+      "control": "none",
+      "augmentation": "none",
+      "multitask": false,
+      "source_report_sha256": "e2dd885f339bf15d8870e31a182344b2290198faacf66f78e0f0a094dd323d13",
+      "source_regression_report_sha256": "a5f3fa3d300a63b8b07ffce5640b25618e7cc896b4f03325d5b3fbb968355c6d"
+    },
+    {
+      "participant": "P2",
+      "modality": "ECoG",
+      "neural_channels": 8,
+      "target": "40 log-mel bins",
+      "classifier_input": "frozen hidden3030",
+      "mode": "classification_hidden",
+      "seed": 3,
+      "run_date": "2026-06-20",
+      "accuracy": 0.6739121756487026,
+      "accuracy_percent": 67.39121756487026,
+      "metric": "test_accuracy: historical random minibatches sampled with replacement",
+      "head_split": {
+        "train_files": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "val_files": [
+          9
+        ],
+        "test_files": [
+          10,
+          11
+        ]
+      },
+      "regression_split": {
+        "train_files": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "val_files": [
+          7
+        ],
+        "test_files": [
+          8,
+          9,
+          10,
+          11
+        ]
+      },
+      "max_words_length": 52,
+      "selected_head_iteration": 5000,
+      "completed_head_iteration": 9999,
+      "control": "none",
+      "augmentation": "none",
+      "multitask": false,
+      "source_report_sha256": "ce9c7140b26ab0248ce84b7117956909940a8c359a5a812f8c2d9c937ad058c3",
+      "source_regression_report_sha256": "3c2e43f8873ea683314694cf9a0c606d92b7d59315e3bc32333c6bbfa979d512"
+    }
+  ],
+  "patient_data_or_weights_included": false,
+  "new_training_or_inference_performed": false
+}

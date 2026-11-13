@@ -16,6 +16,15 @@ implementation, not a certified byte-identical June source/environment release.
 Saved metrics retain their dates and estimator definitions. Dependency versions
 are the versions used to check the publication copy, not an original lockfile.
 
+The earlier plain-MEL runs were subsequently traced to their saved regression
+and hidden-head reports: P1/seed42, June13,2026 (48.8243513%) and P2/seed3,
+June20,2026 (67.3912176%). The P2 report is additionally preserved in recovered
+local Git snapshot `04b2874b39aace9ebadb668feaf2ae4a173db802` from June21,2026.
+The matching MEL computation path is already retained by `train.py --target mel`;
+this provenance addition does not introduce another model or change training.
+The earliest P1 runtime did not set all later deterministic CUDA flags, so the
+source match is not a promise of a bit-identical P1 training rerun.
+
 ## Historical protocol retained explicitly
 
 - The neural regression window has 1001 samples on the downsampled time grid,

@@ -1,5 +1,20 @@
 # Historical results and evaluation boundaries
 
+## Plain MEL replication: best saved individual runs
+
+After the recording-split corrections and implementation fixes, ordinary MEL
+hidden-head decoding reached **48.82% for P1** (seed42, June13,2026) and
+**67.39% for P2** (seed3, June20,2026). These are individual-run maxima of the
+plain-MEL recipe; they are not five-seed means or maxima over augmentation and
+multitask experiments. The P2 number was retained as a MEL control in the
+MEL/Whisper comparison. Both reports store the historical sampled
+`test_accuracy`, without a saved `test_accuracy_full`.
+
+See [MEL_BASELINE.md](MEL_BASELINE.md) and `benchmarks/mel_baseline_runs.json`
+for implementation pointers, exact values, splits and source-report hashes.
+
+## Whisper layers and the matched MEL multi-seed control
+
 The following numbers were recovered from saved June 20–26, 2026 result JSONs
 for participant P2, eight-channel ECoG, Whisper-base, seeds 42, 1, 2, 3, 4.
 No new scientific experiment was run to prepare this repository.
